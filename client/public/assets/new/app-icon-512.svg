@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="512" height="512" rx="128" fill="#0a854c" />
+  
+  <!-- Ladybug Body -->
+  <circle cx="256" cy="256" r="120" fill="#e53935" />
+  
+  <!-- Head -->
+  <circle cx="176" cy="216" r="40" fill="#212121" />
+  
+  <!-- Spots -->
+  <circle cx="216" cy="196" r="20" fill="#212121" />
+  <circle cx="296" cy="196" r="20" fill="#212121" />
+  <circle cx="256" cy="226" r="20" fill="#212121" />
+  <circle cx="200" cy="276" r="20" fill="#212121" />
+  <circle cx="312" cy="276" r="20" fill="#212121" />
+  <circle cx="256" cy="316" r="20" fill="#212121" />
+  
+  <!-- Dividing Line -->
+  <line x1="256" y1="136" x2="256" y2="376" stroke="#212121" stroke-width="4" />
+  
+  <!-- Legs -->
+  <line x1="196" y1="216" x2="136" y2="176" stroke="#212121" stroke-width="6" />
+  <line x1="196" y1="236" x2="126" y2="216" stroke="#212121" stroke-width="6" />
+  <line x1="196" y1="276" x2="126" y2="296" stroke="#212121" stroke-width="6" />
+  
+  <line x1="316" y1="216" x2="376" y2="176" stroke="#212121" stroke-width="6" />
+  <line x1="316" y1="236" x2="386" y2="216" stroke="#212121" stroke-width="6" />
+  <line x1="316" y1="276" x2="386" y2="296" stroke="#212121" stroke-width="6" />
+  
+  <!-- Antennas -->
+  <line x1="166" y1="186" x2="146" y2="146" stroke="#212121" stroke-width="4" />
+  <line x1="186" y1="186" x2="206" y2="146" stroke="#212121" stroke-width="4" />
+  <circle cx="146" cy="146" r="6" fill="#212121" />
+  <circle cx="206" cy="146" r="6" fill="#212121" />
+  
+  <!-- Eyes -->
+  <circle cx="166" cy="206" r="6" fill="white" />
+  <circle cx="186" cy="206" r="6" fill="white" />
+  
+  <!-- Text -->
+  <text x="256" y="420" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="white" text-anchor="middle">BugID</text>
+</svg>
